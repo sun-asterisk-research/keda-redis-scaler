@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# GitHub
+.github
+
+# Editor
+.editorconfig
+.idea
+.vscode
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Helm charts
+/charts
+/.deploy
+
+# Markdowns
+LICENSE
+README.md
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Built binaries
+bin
+
+# Go workspace file
+go.work

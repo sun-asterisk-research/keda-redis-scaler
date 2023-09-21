@@ -1,0 +1,10 @@
+apiVersion: v2
+name: keda-redis-scaler
+description: KEDA external scaler for Redis
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+dependencies:
+- name: common
+  version: 1.1.0
+  repository: https://sun-asterisk-research.github.io/helm-charts
